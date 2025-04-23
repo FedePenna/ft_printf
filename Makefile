@@ -1,14 +1,10 @@
 NAME = libftprintf.a # Name of the file that will be generated.
 
 SRC = ft_printf.c\
-       ft_putchar_c.c\
-       ft_putstr_c.c\
+       ft_utils_count.c\
        ft_putstr.c\
        ft_checkf.c\
        ft_pointer_c.c\
-       ft_puthex_c.c\
-       ft_putint_c.c\
-       ft_putuint_c.c\
        ft_putnbr_base.c\
 
 OBJS = $(SRC:.c=.o) # This variable will convert src .c files to object files .o
